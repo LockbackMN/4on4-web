@@ -58,7 +58,6 @@ export function GameTab() {
     toggleSkipNextGame,
     generateTeams,
     swapPlayers,
-    sitOutPlayer,
     endGame,
   } = useLeagueStore();
 

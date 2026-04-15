@@ -34,7 +34,7 @@ export function generateTeams(players: Player[]): {
   const teamB: Player[] = [];
 
   const now = Date.now();
-  const updatedPlaying = playing.map((p, i) => ({
+  const updatedPlaying = playing.map((p) => ({
     ...p,
     lastActivatedAt: now,
     prioritizeNextGame: false,
